@@ -1,0 +1,108 @@
+{% extends   'hello/base.html' %}
+{% block css %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'main/css/games.css' %}">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+{% endblock %}
+{% block title %}
+Страница про games
+{% endblock %}
+{% block content %}
+
+    <h2 id="h2">Kazakh Traditional Sports</h2>
+    <hr id="hr">
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="http://isker-group.com/wp-content/uploads/2017/12/nat3.jpg" class="d-block w-100" alt="" height="550px">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="http://isker-group.com/wp-content/uploads/2017/12/nat2.jpg" class="d-block w-100" alt="" height="550px">
+            </div>
+            <div class="carousel-item">
+                <img src="http://isker-group.com/wp-content/uploads/2017/12/nat1.jpg" class="d-block w-100" alt="" height="550px">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <p class="p">
+        Kazakh traditional sports are still practiced in Kazakhstan during national celebrations. ISKER Group provides sponsorship and takes an active part in such events because Kazakh sports are integral parts of national culture. Endless Eurasian steppes and
+        challenging local climate had a tremendous influence on the building of Kazakh national culture. The nomadic lifestyle required Kazakh men and women to be physically tough horse riders and skillful hunters. This fact is reflected in the nature
+        of Kazakh national sports and games the majority of which are equestrian competitions.
+    </p>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Kokpar
+            </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    The name of the sport comes from Kazakh words and means “a grey wolf.” Kokpar is considered to be a kind of polo. This is a very popular masculine sport where two teams (from five to ten persons in each) of horse riders grapple over a decapitated goat,
+                    which they try to deposit in the opponent’s goal. The distance between two goalposts is 300-400 meters. It lasts 15 minutes. In case of a draw, horsemen have the second round. If there is no result again, a competition between two
+                    players is organized.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Baige
+            </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    This is one of the most popular and widespread Kazakh equestrian sport. Baiga is a horse racing over short and long distances (up to 100 kilometres). It is believed that the national sport originated with the need of Kazakh nomads to promote endurance
+                    in horses. Traditionally, the participants are Kazakh boys between 7 and 14 years of age. However, sometimes professional jockeys can compete with each other as well.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Kazaksha kures
+            </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Kazaksha kures was the most popular fighting among people. The variety of this game has other nationalities of Central Asia. Originally, all kinds of fighting were generated by the necessity of hand-to-hand fighting. “Kazaksha kures” was carried out during
+                    all holidays between well-known strong men. The fighters knew various fighting technique, including back heels and undercuts, throws with falling, turnings with spurt. Distinguishing feature of “Kazaksha kures” is lack of fighting
+                    in parterre. The fighting is carried out only uprightly.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="end">
+        <div class="en">
+            <div class="en1">
+                <h3 class="h3">About</h3>
+                <p class="p1">Kazakh based conglomerate comprising a diverse range of construction and engineering products and services in oil & gas sector, port operations, waste management, property, shipping, logistics, catering and leisure sectors.</p>
+            </div>
+            <div class="en2">
+                <ul>
+                    <li style="color: white; font-size: 24px;">Kazakh National Games</li>
+                    <li style="color: #888888; font-size: 18px;">Equestrian Sports</li>
+                    <li style="color: #888888; font-size: 18px;">Alaman Bayge</li>
+                    <li style="color: #888888; font-size: 18px;">Audaryspak</li>
+                    <li style="color: #888888; font-size: 18px;">Kokpar</li>
+                    <li style="color: #888888; font-size: 18px;">Kyz kuu</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

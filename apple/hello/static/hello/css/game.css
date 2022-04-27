@@ -1,0 +1,66 @@
+#h2 {
+    margin-left: 60px;
+    margin-top: 50px;
+    font-family: Montserrat, sans-serif;
+}
+
+#hr {
+    width: 370px;
+    margin-left: 50px;
+    background-color: #FFB600;
+
+}
+
+#carouselExampleInterval {
+    width: 1140px;
+    margin-top: 30px;
+    height: 550px;
+    margin-left: 65px;
+}
+
+.p {
+    width: 1140px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+.accordion {
+    width: 1140px;
+    margin-left: 65px;
+}
+
+.end {
+    height: 200px;
+    margin-top: 50px;
+    background-color: #1B273D;
+}
+
+.h3 {
+    margin-left: 65px;
+    color: white;
+}
+
+.p1 {
+    margin-top: 20px;
+    color: #888888;
+    margin-left: 65px;
+}
+
+.en {
+    display: flex;
+}
+
+.en1 {
+    width: 450px;
+    height: 200px;
+}
+
+.en2 {
+    margin-left: 10px;
+    width: 450px;
+    height: 200px;
+}
+
+ul {
+    list-style: none;
+}

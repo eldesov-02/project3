@@ -1,0 +1,36 @@
+.body{
+    background: #2c2c2c;
+
+}
+
+.div{
+    float: left;
+    width: 20%;
+    background: #181818;
+    padding: 2.5%;
+    height: 100vh;
+    }
+    #logo{
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    #h3{
+    margin-top: 50px;
+    font-size: 28px;
+    }
+    #div ul{
+    list-style: none;
+    }
+    #a, #b, #c{
+        text-decoration: none;
+    }
+    #div ul li{
+        display: block;
+        margin-top: 20px;
+        color: black;
+        transition: all .6s ease:
+    }
+    #div ul li:hover, #div ul a:hover{
+        color: #eb5959;
+        transform: scale(1.05);
+    }
